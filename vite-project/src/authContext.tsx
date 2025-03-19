@@ -1,3 +1,9 @@
+/**
+ * Problem statement
+ * 
+I want to handle authentication using a custom hook called useAuth. The hook has a few state such as isAuthenticated, currentUser and a few function such as login, logout. Reading data from localstorage is expensive. Please create a solution so that the auth data will persist without reading data from localstorage everytime I call useAuth accross the application. What are the possible solutions?
+ */
+
 import React, { createContext, useContext, useState, useEffect } from "react";
 
 // Define the type for authentication context
